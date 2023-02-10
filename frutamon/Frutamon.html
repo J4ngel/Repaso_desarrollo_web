@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frutamón</title>
+    <script src="./js/code.js"></script>
+</head>
+<body>
+    <h1>Frutamón 🔥💧🌱</h1>
+
+    <section id="seleccionar-mascota">
+        <h2>Elige tu mascota:</h2>
+
+        <label for="Aguacamp">Aguacamp</label>
+        <input type="radio" id="Aguacamp" name="mascota"/>
+        
+        <label for="Frambubu">Frambubu</label>
+        <input type="radio" id="Frambubu" name="mascota"/>
+        
+        <label for="Totoronja">Totoronja</label>
+        <input type="radio" id="Totoronja" name="mascota"/>
+        
+        <!-- Aguacamp -> Agua
+        Frambubu -> Fuego
+        Totoronja -> Tierra
+        Picapicante -> Agua y Fuego
+        Tilpalia -> Agua y Tierra
+        Pytoro  -> Tierra y Fuego -->
+
+        <button id="btn-mascota">Seleccionar</button>
+    </section>
+
+    <section id="seleccionar-ataque">
+        <h2>Elige tu ataque:</h2>
+
+        <p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="vida-jugador"></span> vidas</p>
+        <p>La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span id="vida-enemigo"></span> vidas</p>
+        <p>
+            <button id="btn-fuego">Fuego 🔥</button>
+            <button id="btn-agua">Agua 💧</button>
+            <button id="btn-tierra">Tierra 🌱</button>
+        </p>
+    </section>
+
+    <section id="mensajes">
+        
+    </section>
+
+    <section id="reiniciar">
+        <button id="btn-reset">Reiniciar</button>
+    </section>
+</body>
+</html>
